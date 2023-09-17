@@ -8,7 +8,10 @@
    allow your implementation to work properly. */
 #define STUB_FUNCS
 #ifdef STUB_FUNCS
-void shutdown(void) {}
+void shutdown(void) {
+  proj();
+  exit();
+}
 #endif
 
 
