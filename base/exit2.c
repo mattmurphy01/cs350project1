@@ -7,9 +7,11 @@
    REMEMBER to disable the stub functions (by commenting the following macro) to 
    allow your implementation to work properly. */
 
-#define STUB_FUNCS
+//#define STUB_FUNCS
 #ifdef STUB_FUNCS
-void exit2(int status) {}
+void exit2(int status) {
+
+}
 #endif
 
 

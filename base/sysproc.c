@@ -97,3 +97,12 @@ sys_proj(void)
   outw(0x604, 0x0|0x2000);
   return 0;
 }
+
+int
+sys_exit2(int status)
+{
+  argint(0, &status);
+  cprintf("%d \n", status);
+  exit();
+  return 0;
+}
