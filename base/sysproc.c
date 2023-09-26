@@ -106,3 +106,12 @@ sys_exit2(int status)
   exit();
   return 0;
 }
+
+int
+sys_shutdown2(char * msg)
+{
+  argstr(0, &msg);
+  cprintf("%s\n", msg);
+  sys_shutdown();  
+  return 0;
+}
