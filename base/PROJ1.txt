@@ -1,0 +1,8 @@
+CS 350 Project 1
+
+Matthew Murphy, Carter Kronsberg, Katherine Perrone
+
+Our implementation is complete. We all worked together on the shutdown syscall in lab then we each completed one syscall each:
+Matthew Murphy: mkdir2
+Carter Kronsberg: shutdown2
+Katherine Perrone: exit2
